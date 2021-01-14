@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+   
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
     <style>
     /*  h1{ font-family: 'Roboto', sans-serif;
      text-transform: uppercase; font-size:60px;
@@ -18,66 +21,72 @@
       font-family: 'Anton', sans-serif;font-size: 60px;text-transform: uppercase;letter-spacing: 2px;
       line-height: 80px; color: rgb(42, 42, 66);
     }
+    .listTx a{
+      font-size: 18px;font-family: 'Roboto', sans-serif;
+    }
     </style>
 </head>
 <body>
-    <header class="container col-lg-12 bg-primary">
-    <nav class="nav d-flex bd-highlight p-4 justify-content-between">
-        <div class="bg-secondary">
-          <a  href=""><img style="width: 300px;height: 50px;" src="./Logo, Icon/Logo.png" alt=""></a>
+    <header class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border border-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img style="width: 300px;height: 50px;" src="./Logo, Icon/Logo.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav listTx">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Product</a>
+            <a class="nav-link " href="#popular" >Popular Items</a>
+            <a class="nav-link " href="#" >Contacts</a>
+          </div>
         </div>
-        <div class="ancors d-flex justify-content-cente align-middle">
-        <a class="text-white p-3" href="">Home</a>
-        <a class="text-white p-3" href="">About</a>
-        <a class="text-white p-3" href="">Product</a>
-        <a class="text-white p-3" href="">Contacts</a>
-        </div>
-        
-       
+      </div>
     </nav>
     </header>
-    <main class="container mt-2">
-        <section class="container bg-secondary row col-lg-12">
-                <div class="col-lg-6 bg-success justify-content-center">
-                  <div class="m-5 bg-info">
+    <!-- ---------------------------- -->
+    <main class="container d-grid gap-3">
+        <section class="container border border-dark row mt-3 p-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center">
+                  <div class="mt-5">
                     <h1 class="">BackPack <br><span id="headColor"> Moon</span></h1>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Iste officia sint pariatur rerum est natus sequi earum unde modi eos.</p>
-                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btnColor"> <i class="fas fa-cart-plus 2x"></i> Buy Now</button>
                   </div>
                     
                 </div>
-                <div class="col-lg-6 justify-content-center align-items-center">
-                  <img class="w-100 justify-content-lg-start" src="./Logo, Icon/greenOne.png" alt="">
+                <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center p-3">
+                  <img style="width: 100%;" class="justify-content-lg-start" src="./Logo, Icon/greenOne.png" alt="">
                 </div>
         </section>
-        <section class="container row col-lg-12 mt-5">
-            <div class="row col-lg-6 shade">
-                <div class="row col-lg-12 m-3 rounded shadow-sm p-3 mb-2 bg-white">
-                    <div class="row col-lg-4 ">
+        <!-- ---------------------------- -->
+        <section class="container row mt-3 border border-dark">
+            <div class="row col-lg-6 col-xl-6 col-xxl-6 col-md-12 col-sm-12">
+                <div class="row d-flex m-3 rounded shadow-sm p-3 mb-2 bg-white">
+                    <div class="row col-lg-4  col-md-4 col-sm-4">
                         <img id="img1" src="./Logo, Icon/image 12.png" alt="">
                     </div>
-                    <div class="row col-lg-8 ">
+                    <div class="row col-lg-8 col-md-6 col-md-8 col-sm-8">
                         <h3>Find the Perfect Fit</h3>
                         <p>Everybody is different, which is why offer styles for every body.</p>
                     </div>
                 </div>
                 <div class="row col-lg-12 m-3 rounded shadow-sm p-3 mb-2 bg-white">
-                    <div class="row col-lg-4">
+                    <div class="row col-lg-4  col-md-4 col-sm-4">
                         <img id="img1"  src="./Logo, Icon/image 13.png" alt="">
                     </div>
-                    <div class="row col-lg-8">
-                        <h3>Free Exchanges</h3>
-
-                        <p>One of the many reasons you can shop
-
-                            with peace of mind.</p>
+                    <div class="row col-lg-8  col-md-8 col-sm-8">
+                        <h3>Free Exchanges</h3> <p>One of the many reasons you can shop with peace of mind.</p>
                     </div>
                 </div>
-                <div class="row col-lg-12 m-3 rounded shadow-sm p-3 mb-2 bg-white rounded">
-                    <div class="row col-lg-4">
+                <div class="row  m-3 rounded shadow-sm p-3 mb-2 bg-white rounded">
+                    <div class="row col-lg-4 col-md-4 col-sm-4">
                         <img id="img1"  src="./Logo, Icon/image 14.png" alt="">
                     </div>
-                    <div class="row col-lg-8">
+                    <div class="row col-lg-8  col-md-8 col-sm-8">
                         <h3>Contact Our Seller</h3>
                         <p>They are here to help you. That's quite 
 
@@ -85,17 +94,51 @@
                     </div>
                 </div>
             </div>
-            <div class="row col-lg-6 bg-white shade">
+            <div class="row col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 bg-white">
                 <img class="w-100 h-80" src="./Logo, Icon/XMLID 1.png" alt="">
             </div>
 
         </section>
-        <section class="container">
+        <!-- ---------------------------------- -->
+        <section class="container border border-dark mt-3">
            
-                <h1 style="font-size: 50px;margin-top:50px;margin-bottom: 50px;">Casual backpack</h1>
+            <h1 style="font-size: 50px;margin-top:50px;margin-bottom: 50px;">Casual backpack</h1> 
            
-            <div class="card-group ">
-                <div class="card m-3 allImg">
+            <div class="card-group allImg">
+              <div class="card m-3 allImg row col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-12  rounded">
+                <img style="border-radius: 30px 30px;" src="./Photos/pngwing 1.png" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                  <h5 class="card-title">Nike Sportswear Hayward </h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                </div>
+                <div class="card-footer cards d-flex justify-content-evenly align-items-center">
+                  <small class="text">$234</small>
+                  <button class="btn btnColor"><i class="fas fa-cart-plus 2x"></i> Buy now</button>
+                </div>
+              </div>
+                <div class="card m-3 allImg row col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-12">
+                  <img style="border-radius: 30px 30px;"  src="./Photos/pngwing 2.png" class="card-img-top" alt="...">
+                  <div class="card-body cards">
+                    <h5 class="card-title">Nike Sportswear Hayward </h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                  </div>
+                  <div class="card-footer cards d-flex justify-content-evenly align-items-center">
+                    <small class="text">$234</small>
+                    <button class="btn btnColor"> <i class="fas fa-cart-plus 2x"></i>Buy now</button>
+                  </div>
+                </div>
+                <div class="card m-3 allImg row col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-12">
+                  <img style="border-radius: 30px 30px;"  src="./Photos/pngwing 3.png" class="card-img-top" alt="...">
+                  <div class="card-body cards">
+                    <h5 class="card-title">Nike Sportswear Hayward </h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                  </div>
+                  <div class="card-footer cards d-flex justify-content-evenly align-items-center">
+                    <small class="text">$234</small>
+                    <button class="btn btnColor"> <i class="fas fa-cart-plus 2x"></i> Buy now</button>
+                  </div>
+                </div>
+            <!--     <div class="card m-3 allImg row col-lg-3 col-xl-3 col-xxl-3 col-md-6 ">
                   <img src="./Photos/pngwing 1.png" class="card-img-top" alt="...">
                   <div class="card-body cards">
                     <h5 class="card-title">Nike Sportswear Hayward </h5>
@@ -107,9 +150,8 @@
                     <small class="text-muted">$234</small>
                     <button class="btn btn-primary">Buy now</button>
                   </div>
-                </div>
-                <!-- --- -->
-                <div class="card m-3 allImg">
+                </div> -->
+               <!--  <div class="card m-3 allImg row col-lg-3 col-xl-3 col-xxl-3">
                   <img src="./Photos/pngwing 1.png" class="card-img-top" alt="...">
                   <div class="card-body cards">
                     <h5 class="card-title">Nike Sportswear Hayward </h5>
@@ -121,8 +163,22 @@
                     <small class="text-muted">$234</small>
                     <button class="btn btn-primary">Buy now</button>
                   </div>
+                </div> -->
+               
+             <!--    <div class="card m-3 allImg row col-lg-3 col-xl-3">
+                  <img src="./Photos/pngwing 1.png" class="card-img-top" alt="...">
+                  <div class="card-body cards">
+                    <h5 class="card-title">Nike Sportswear Hayward </h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the 
+
+                        printing and typesetting industry.</p>
+                  </div>
+                  <div class=" card-footer  d-flex justify-content-evenly">
+                    <small class="text-muted">$234</small>
+                    <button class="btn btn-primary">Buy now</button>
+                  </div>
                 </div>
-                <div class="card m-3 allImg">
+                <div class="card m-3 allImg row col-lg-3 col-xl-3">
                   <img src="./Photos/1282271-14-revolution-checkpoint-friendly-backpack-teb012us-backpacks-laptop-bags-targus-backpack-png-1200_1200 1.png" class="card-img-top" alt="...">
                   <div class="card-body cards">
                     <h5 class="card-title">School backpack</h5>
@@ -135,7 +191,7 @@
                     <button class="btn btn-primary" >Buy now</button>
                   </div>
                 </div>
-                <div class="card m-3 allImg">
+                <div class="card m-3 allImg row col-lg-3 col-xl-3">
                   <img src="./Photos/image 16.png" class="card-img-top" alt="...">
                   <div class="card-body cards">
                     <h5 class="card-title">CityLite Security Backpack </h5>
@@ -147,92 +203,79 @@
                     <small class="text-muted">$234</small>
                     <button class="btn btn-primary">Buy now</button>
                   </div>
-                </div>
-              </div>
+                </div>-->
+              </div> 
  
         </section>
-        <!-- --------------------------- -->
-        <section class="container">
-            <h1>Travel backpack</h1>
+        <!-- ------------------------------------------- -->
+        <section class="container border border-dark mt-3 mb-3">
+            <h1 style="font-size: 50px;margin-top:50px;margin-bottom: 50px;">Travel backpack</h1>
             <div class="card-group">
-                <div class="card">
-                  <img src="./Photos/kisspng-backpacking-travel-hiking-osprey-5b566542cd5807 1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer d-flex justify-content-evenly">
-                    <small class="text-muted">$234</small>
-                    <button class="btn btn-primary">Buy now</button>
-                  </div>
+              <div class="card m-3 allImg row col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-12">
+                <img style="border-radius: 30px 30px;"  src="./Photos/kisspng-backpacking-travel-hiking-osprey-5b566542cd5807 1.png" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                  <h5 class="card-title">Nike Sportswear Hayward </h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
                 </div>
-                <div class="card">
-                  <img src="./Photos/pngwing 2.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                  <div class="card-footer d-flex justify-content-evenly">
-                    <small class="text-muted">$234</small>
-                    <button class="btn btn-primary">Buy now</button>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="./Photos/pngwing 3.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                  <div class="card-footer d-flex justify-content-evenly">
-                    <small class="text-muted">$234</small>
-                    <button class="btn btn-primary">Buy now</button>
-                  </div>
+                <div class="card-footer cards d-flex justify-content-evenly align-items-center">
+                  <small class="text">$234</small>
+                  <button class="btn btnColor"> <i class="fas fa-cart-plus 2x"></i>Buy now</button>
                 </div>
               </div>
+                <div class="card m-3 allImg row col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-12">
+                  <img style="border-radius: 30px 30px;"  src="./Photos/pngwing 2.png" class="card-img-top" alt="...">
+                  <div class="card-body cards">
+                    <h5 class="card-title">Nike Sportswear Hayward </h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                  </div>
+                  <div class="card-footer cards d-flex justify-content-evenly align-items-center">
+                    <small class="text">$234</small>
+                    <button class="btn btnColor"> <i class="fas fa-cart-plus 2x"></i>Buy now</button>
+                  </div>
+                </div>
+                <div class="card m-3 allImg row col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-12">
+                  <img style="border-radius: 30px 30px;"  src="./Photos/pngwing 3.png" class="card-img-top" alt="...">
+                  <div class="card-body cards">
+                    <h5 class="card-title">Nike Sportswear Hayward </h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                  </div>
+                  <div class="card-footer cards d-flex justify-content-evenly align-items-center">
+                    <small class="text">$234</small>
+                    <button class="btn btnColor"><i class="fas fa-cart-plus 2x"></i> Buy now</button>
+                  </div>
+                </div>
  
         </section>
-        <h1>customer feed back</h1>
-        <section class="container bg-warning">
-           <!--  <h1>customer feed back</h1> -->
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner ">
-                  <div class="carousel-item active">
-                    <img class="w-75" src="./Logo, Icon/image 12.png" style="width:400px;height:400px;" class="d-block w-100" alt="...">
-               
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./Logo, Icon/image 12.png" style="width:400px;height:400px;" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./Logo, Icon/image 12.png" style="width:400px;height:400px;" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
+        <h2>POPULAR CHOICE</h2>
+        <section id="popular" class="container  border border-dark mt-3 mb-3">
+         <div class="row col-lg-2 col-xl-2 col-md-2 col-sm-2 "></div>
+          <div id="carouselExampleIndicators" class="row col-lg-8 col-xl-8 col-md-8 col-sm-8 m-auto carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img style="width:90%;" src="./Photos/bag1.jpg" class="d-block w-100" alt="...">
               </div>
+              <div class="carousel-item">
+                <img style="width:90%;" src="./Photos/bag3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img style="width:90%;" src="./Photos/bag1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+          <div class="row col-lg-2 col-xl-2 col-md-2 col-sm-2"></div>
         </section>
 
     </main>

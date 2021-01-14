@@ -8,12 +8,20 @@ body{
         .shade{
             border: .5px solid;
         }
-      .allImg img{
+        .text{
+          font-family: 'Anton', sans-serif;
+          font-size: 25px;
+          font-weight:700;
+          letter-spacing: 1px;
+          color: rgb(63, 117, 86);
+        }
+
+       .allImg img{
           width: 80%;height: 60%;
           margin: 2px auto; padding-top:5px;
-          background-color: rgb(221, 216, 216);
-          border-radius: 30px 30px;
-      }
+          background-color: rgb(243, 239, 239);
+          
+      } 
       .cards{
           border:0;
           background-color: white;
@@ -21,3 +29,17 @@ body{
       #headColor{
         color: darkolivegreen;
       }
+      h2{
+        font-family: 'Anton', sans-serif;font-size: 50px;text-transform: uppercase;letter-spacing: 2px;
+        line-height: 80px; color: rgb(42, 42, 66);
+      }
+      .btnColor{
+        background-image: linear-gradient(blue, rgb(15, 6, 27));
+        font-family: sans-serif;
+        padding: 15px;
+        color:gainsboro;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+      }
+      .btnColor:hover{color: rgb(247, 238, 238);}
