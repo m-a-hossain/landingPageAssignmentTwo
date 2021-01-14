@@ -1,5 +1,10 @@
 body{
-    background-color: rgb(250, 245, 245);
+    background-image: linear-gradient(rgb(226, 231, 226),rgb(243, 243, 219),rgb(230, 230, 247));
+}
+body p{
+
+  font-size: 16px;
+  line-height: 15px;
 }
 .ancors a{text-decoration: none;
            letter-spacing: 2px;
@@ -34,6 +39,7 @@ body{
         line-height: 80px; color: rgb(42, 42, 66);
       }
       .btnColor{
+        float: right;
         background-image: linear-gradient(blue, rgb(15, 6, 27));
         font-family: sans-serif;
         padding: 15px;
@@ -43,3 +49,29 @@ body{
         font-weight: 700;
       }
       .btnColor:hover{color: rgb(247, 238, 238);}
+
+      
+    #home,#nav{
+      background-image: linear-gradient(rgb(227, 248, 227), rgb(201, 201, 243));
+    }
+    #secTwo{
+      background-image: linear-gradient(rgb(237, 250, 237), rgb(250, 250, 206) );
+    }
+    #secThree{
+      background-image: linear-gradient(rgb(255, 255, 255),rgb(223, 223, 241));
+    }
+    #secFour{
+      background-image: linear-gradient(white, gray);
+    }
+    #popular{
+      background-image: linear-gradient(rgb(109, 102, 102),rgb(80, 82, 80));
+    }
+    h1{
+      font-family: 'Anton', sans-serif;font-size: 60px;text-transform: uppercase;letter-spacing: 2px;
+      line-height: 80px; color: rgb(42, 42, 66);
+    }
+    .listTx a{
+      font-size: 18px;font-family: 'Roboto', sans-serif;
+    }
+
+  
